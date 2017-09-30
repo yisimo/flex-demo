@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding:0;
+}
+ul,li{
+	list-style: none;
+}
+section{
+	margin-bottom: 20px;
+	border-bottom:2px solid #fff;
+}
+.item{
+	display: inline-block;
+	padding: 15px;
+	width: 50px;
+	text-align: center;
+	background: #f60;
+	border: 1px solid #ddd;
+}
+.box-wrapper{
+	border: 2px solid #ddd;
+	background: #ccc;
+}
+.box{
+	display:-webkit-flex;
+	display: flex;
+	border: 2px dashed #ddd;
+}
+.fd-row{
+	flex-direction:row;
+}
+.fd-row-reverse{
+	flex-direction: row-reverse;
+}
+.fd-column{
+	flex-direction: column;
+}
+.fd-column-reverse{
+	flex-direction: column-reverse;
+}
+.fw-nowrap{
+	flex-wrap:nowrap;
+}
+.fw-wrap{
+	flex-wrap:wrap;
+}
+.fw-wrap-reverse{
+	flex-wrap:wrap-reverse;
+}
+.jc-flex-start{
+	justify-content:flex-start;
+}
+.jc-flex-end{
+	justify-content: flex-end;
+}
+.jc-flex-center{
+	justify-content:center;
+}
+.jc-space-between{
+	justify-content:space-between;
+}
+.jc-space-around{
+	justify-content:space-around;
+}
+.ai-flex-start{
+	height: 60px;
+	align-items: flex-start;
+}
+.ai-flex-end{
+	height: 60px;
+	align-items: flex-end;
+}
+.ai-baseline{
+	height: 60px;
+	align-items: baseline;
+}
+.ai-center{
+	height: 60px;
+	align-items: center;
+}
+.ai-stretch{
+	height: 60px;
+	align-items: stretch;
+}
+.ac-flex-start{
+	height: 150px;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+.ac-flex-end{
+	height: 150px;
+	flex-wrap: wrap;
+	align-content: flex-end;
+}
+.ac-center{
+	height: 150px;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.ac-space-between{
+	height: 150px;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.ac-space-around{
+	height: 150px;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+.ac-stretch{
+	height: 150px;
+	flex-wrap: wrap;
+	align-content:stretch;
+}
+.order-1{
+	order: 1;
+}
+.order-3{
+	order: 3;
+}
+.order-5{
+	order: 5;
+}
+.flex-grow-1{
+	flex-grow: 1;
+}
+.flex-grow-2{
+	flex-grow: 2;
+}
+.flex-shrink-0{
+	flex-shrink: 0;
+}
+.flex-shrink-item{
+	width: 100px;
+}
+.flex-basis-50{
+	flex-basis: 50px;
+}
+.flex-basis-100{
+	flex-basis: 100px;
+}
+.flex-auto{
+	flex: auto;
+}
+.flex-none{
+	flex:none;
+}
+.flex-50{
+	flex: 0 0 50px;
+}
+.as-auto{
+	align-self: auto;
+}
+.as-flex-start{
+	align-self: flex-start;
+}
+.as-flex-end{
+	align-self: flex-end;
+}
+.as-center{
+	align-self: center;
+}
+.as-baseline{
+	align-self: baseline;
+}
+.as-stretch{
+	align-self: stretch;
+}
+.ul-height{
+	height: 100px;
+}
